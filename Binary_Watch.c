@@ -68,7 +68,7 @@ void PossibleTime(char n) {
     if(n <= 3)
         PossibleTimeRecursive(n, 0);
     else
-        PossibleTimeRecursive(3, n-3);
+        PossibleTimeRecursive(0, n);
 }
 
 int main()
